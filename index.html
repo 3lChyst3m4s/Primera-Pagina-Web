@@ -1,0 +1,185 @@
+<html>
+    <head>
+        <title>Primera pagina</title>
+    </head>
+    <body>
+        <h1>Este es el encabezado 1</h1>
+        <h2>Este es el encabezado 2</h2>
+        <h3>Este es el encabezado 3</h3>
+        <h4>Este es el encabezado 4</h4>
+        <h5>Este es el encabezado 5</h5>
+        <h6>Este es el encabezado 6</h6>
+
+        <hr>
+
+        <p>Esto es un parrafo</p>
+        <!--Esto es un comentario-->
+        <p>Esto es <br /> un salto de linea</p>
+
+        <hr>
+        <!--Control de fuente-->
+        <p><b>Texto en negrita</b></p>
+        <p><big>Texto grande</big></p>
+        <p><i>Texto en cursiva</i></p>
+        <p><small>Texto pequeño</small></p>
+        <p><strong>Texto reforzado</strong></p>
+        <p><sub>Texto subindice</sub></p>
+        <p><sup>Texto superindice</sup></p>
+        <p><ins>Texto insertado</ins></p>
+        <p><del>Texto borrado</del></p>
+
+        <hr>
+        <!--Atributos
+            Alineacion=align
+            Ancho=width-->
+        <p align="center">Este texto está alineado hacia el centro
+        <hr width="50%" align="left"/>
+        <hr width="920px" align="right"/>
+        </p>
+
+        <!--Etiqueta img
+            dirección (URL) con src
+            en caso de no mostrarse, va el alt(obligatorio)-->
+        <!--Tamaño de imagen
+            width y height (ancho y alto)-->
+        <img src="IllaoiGod.jpg" alt=""/>
+
+        <hr>
+
+        <!--Listas-->
+        <ol>
+            <li>Rojo</li>
+            <li>Azul</li>
+            <li>Verde</li>
+        </ol>
+        <ul>
+            <li>Verano</li>
+            <li>Otoño</li>
+            <li>Invierno</li>
+            <li>Primavera</li>
+        </ul>
+
+        <hr>
+        <!--Tablas-->
+        <!--Se añade borde = border
+            para unir columnas = colspan
+            para cambiar la posición = align
+            para aplicar colores de fondo = bgcolor-->
+        <table align="center" border="1">
+            <tr>
+                <td bgcolor="red">Red</td>
+                <td bgcolor="blue">Blue</td>
+                <td bgcolor="green">Green</td>
+            </tr>
+            <tr>
+                <td bgcolor="yellow">Yellow</td>
+                <td bgcolor="orange" colspan="2">Orange</td>
+            </tr>
+        </table>
+
+        <hr>
+        <!--Links-->
+        <!--usar href-->
+        <a href="http://www.sololearn.com" target="_blank"> Learn Playing</a>
+
+        <hr>
+        <!--Horario-->
+        <h1><span>My Coding Schedule</span></h1>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+            </tr>
+            <tr>
+                <td>8-8:30</td>
+                <td class="selected">Learn</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9-10</td>
+                <td></td>
+                <td class="selected">Practice</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1-1:30</td>
+                <td></td>
+                <td></td>
+                <td class="selected">Play</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3:45-5</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="selected">Code</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6-6:15</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="selected">Discuss</td>
+            </tr>
+        </table>
+
+        <hr>
+        <!--Tipos de elementos-->
+        <!--Block: h1, form, li, ol, ul, p, pre, table, div...
+            Inline: b, a, strong, img, input, em, span-->
+        <h1>Encabezado</h1>
+        <div style="background-color:green; color:white; padding:20px;">
+            <p>Esto seria el parrafo de contenido.</p>
+            <p>Justo aqui tienes otro articulo de contenido.</p>
+        </div>
+
+        <h2>Algun mensaje <span style="color:red">importante</span></h2>
+
+        <!--Otros elementos-->
+        <!--APPLET: applet Java embebido
+            IFRAME: marco en linea
+            INS: texto insertado
+            MAP: mapa de imagen
+            OBJECT: objeto incrustado
+            SCRIPT: secuencia de comandos dentro de un documento HTML-->
+
+        <hr>
+        <!--Formularios-->
+        <!--Atributos 
+            action:
+            method: especifica el metodo HTTP (GET / POST)
+            input: entrada de datos (texto, contraseña, radio, URL, envio, etc)-->
+        <form method="post" action="#">
+            <input type="text" name="nombre" />
+            <input type="submit" name="enviar" />
+        </form>
+
+        <form>
+            <input type="text" name="usuario" /><br />
+            <input type="password" name="contraseña" />
+        </form>
+
+        <form>
+            <input type="radio" name="gender" value="male" />Masculino<br />
+            <input type="radio" name="gender" value="female" />Femenino<br /><br />
+
+            <input type="checkbox" name="gender" value="1" />Masculino<br />
+            <input type="checkbox" name="gender" value="2" />Femenino<br />
+        </form>
+
+        <hr>
+    </body>
+</html>
